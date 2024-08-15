@@ -1,0 +1,99 @@
+Artificial Intelligence:
+------------------------
+
+AI is a branch of Computer science that is concerned with building smart and Intelligent Machines.
+
+Machine Learning:
+-----------------
+
+Machine Learning is a technique to implement AI that can learn from the data by themselves without being explicitly programmed.
+
+Deep Learning:
+--------------
+
+Deep Learning is a subfield of Machine Learning that uses Artificial Neural Networks to learn from the data.
+
+Types of Machine learning:
+--------------------------
+
+1. Supervised Learning
+2. Un-Supervised Learning
+3. Reinforcement Learning
+
+Definition: 
+-----------
+
+1. Supervised Learning: 
+
+In Supervised Learning, the Machine Learning algorithm learns from Labelled Data.
+
+2. Un-Supervised Learning:
+
+In Supervised Learning, the Machine Learning algorithm learns from unlabelled Data.
+
+3. Reinforcement Learning:
+
+Reinforcement Learning is an area of Machine Learning concerned with how
+intelligent agents take actions in an environment to maximize its rewards.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Types of Supervised Learning:
+-----------------------------
+
+1. Classification
+2. Regression
+
+Definition:
+-----------
+
+1. Classification: 
+
+Classification is about predicting a class or discrete values.
+Eg: Male or Female; True or False
+
+
+I. Decision Tree Classification
+2. Random Forest Classification
+3. K-nearest Neighbor
+
+2. Regression:
+
+Regression is about predicting a quantity or continuous values.
+Eg: Salary; age; Price.
+
+
+1. Logistic Regression
+2. Polynomial Regression
+3. Support Vector Machines
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Types of Unsupervised Learning:
+-------------------------------
+
+1. Clustering 
+2. Association
+
+Definition:
+-----------
+
+1. Clustering:
+
+Clustering is an unsupervised task which involves grouping the similar data points.
+
+
+2. Association:
+
+Association is an unsupervised task that is used to find important relationship between data points.
+
+Unsupervised Learning algorithms:
+--------------------------------
+
+1. K-Means Clustering
+2. Hierarchical Clustering
+3. Principal Component Analysis (PCA)
+4. Apriori
+5. Eclat
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+

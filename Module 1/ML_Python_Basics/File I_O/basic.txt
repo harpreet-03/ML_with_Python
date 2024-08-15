@@ -1,0 +1,87 @@
+
+Python can be used to perform operations on a file. (read & write data)
+
+Types Of all files
+
+1. Text Fites : .txt, .docx, .log etc.
+2. Binary Files : .mp4, .mov, .png, .jpeg etc.
+
+# Open, read, & close files
+
+-> We've to open a file before reading or writing
+
+f = open("file_name", "mode")
+
+Mode:
+r: read mode
+w: write mode
+
+-- after then, read and close the file ::::::::::
+data = f.read()
+f.close()
+
+#read(): read entire file
+#readLine() : read one line at a time
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Modes :
+
+'r'  ->   open for reading (default)
+'w'  ->   open for writing, truncating the file first
+'x'  ->   create a new file and open it for writing
+'a'  ->   open for writing, appending to the end ot the file if it exists
+'b'  ->   binary mode
+'t'  ->   text mode (default)
+'+'  ->   open a disk file for updating (reading and writing)
+
+
+'r+' -> read + overwrite (ptr start) -> no truncate
+'w+' -> read + overwrite  -> truncate
+'a+' -> append (ptr end)         -> no truncate
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Writing to a file :
+
+1. First way to write ------>: 
+
+f = open("demo1.txt", "w")
+f.write("Hello, I'm Harpreet Singh")  #overwrites the entire file
+f.close()
+
+
+-> initially in demo1.txt :
+the data is: sdndslknkldfmlkckllmsdlmd
+
+-> now after the running the above code, the data is
+the data is: Hello, I'm Harpreet Singh
+
+#the data is overwrittn in the file.
+
+
+2. Second way to write ------>:
+
+f = open("demo2.txt", "a")
+f.write(" I'm learning Python from APC")  #overwrites the entire file
+f.close()
+
+# mode a: -> append mode at the end of the file
+
+-> initially in demo1.txt :
+the data is: Hello, I'm Harpreet Singh
+
+-> now after the running the above code, the data is
+the data is: Hello, I'm Harpreet Singh, and I'm learning Python from APC
+
+
+#IMP POINT: 
+if there is no file exists while using write or append mode, python automatically creates a file.
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+with Syntax:
+
+with open("demo2.txt", "a") as f:
+data = f.read()
