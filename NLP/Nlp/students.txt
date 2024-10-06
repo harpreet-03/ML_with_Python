@@ -1,0 +1,12 @@
+Kendriya Vidyalaya, 12th grade students information
+==================================================
+
+Name	birth day   	email
+-----	------------	------
+Harpreet   16 Sep 2004    harpreet@singh.com
+Neeraj	   12 April, 2001  neerja@sharma.com
+Shivam     24 June, 1998   shivam@sharma.com 
+Ronit      7 May, 1997    ronit@kumar.com
+
+
+
